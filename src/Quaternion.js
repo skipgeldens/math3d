@@ -309,6 +309,6 @@ _Quaternion.prototype.toString = function() {
 };
 
 readonly(_Quaternion, "identity", new _Quaternion(0, 0, 0, 1));
-readonly(_Quaternion, "zero", new _Quaternion(0, 0, 0, 0));
+// readonly(_Quaternion, "zero", new _Quaternion(0, 0, 0, 0));
 
 module.exports = _Quaternion;
